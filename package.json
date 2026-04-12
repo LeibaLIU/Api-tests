@@ -1,0 +1,21 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "description": "API tests homework - apichallenges.eviltester.com",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:get": "npx playwright test --grep @GET",
+    "test:post": "npx playwright test --grep @POST",
+    "test:put": "npx playwright test --grep @PUT",
+    "test:delete": "npx playwright test --grep @DELETE",
+    "test:head": "npx playwright test --grep @HEAD",
+    "test:auth": "npx playwright test --grep @AUTH",
+    "test:ui": "npx playwright test --ui"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.0"
+  }
+}
