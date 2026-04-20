@@ -8,8 +8,10 @@
     "test:get": "npx playwright test --grep @GET",
     "test:post": "npx playwright test --grep @POST",
     "test:put": "npx playwright test --grep @PUT",
+    "test:patch": "npx playwright test --grep @PATCH",
     "test:delete": "npx playwright test --grep @DELETE",
     "test:head": "npx playwright test --grep @HEAD",
+    "test:options": "npx playwright test --grep @OPTIONS",
     "test:auth": "npx playwright test --grep @AUTH",
     "test:ui": "npx playwright test --ui"
   },

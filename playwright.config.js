@@ -5,7 +5,7 @@ dotenv.config();
 
 export default defineConfig({
   testDir: './tests',
-  fullyParallel: false,
+  fullyParallel: true,
   reporter: 'html',
   use: {
     baseURL: 'https://apichallenges.eviltester.com',
